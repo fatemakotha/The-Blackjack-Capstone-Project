@@ -8,3 +8,5 @@ def deal_card(): #function to pick a random card
   
 deal_card()#prints the function
 
+user_cards = []#user cards set to an empty list
+
