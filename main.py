@@ -6,7 +6,7 @@ def deal_card(): #function to pick a random card
   card = random.choice(cards)
   print(card)
   
-deal_card()#prints the function
+deal_card() #prints the function
 
-user_cards = []#user cards set to an empty list
-
+user_cards = [] #user cards set to an empty list
+computer_cards = [] #computer cards set to an empty list
