@@ -4,5 +4,11 @@ cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10] #this is the deck available
 
 def deal_card(): #this function chooses one card randomly
     chosen_card = random.choice(cards)
-    print(chosen_card)
+    return chosen_card
 deal_card() #calls the funtion
+
+# user_cards = []
+# for cards in range (0, 1):
+#     user_cards = chosen_card.append()
+#     print(usercards)
+
